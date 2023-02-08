@@ -30,16 +30,6 @@ Forked from <a href="https://github.com/antfu/vitesse-lite">Vitesse Lite</a>
 
 <br>
 
-See [Vitesse](https://github.com/antfu/vitesse) for full featureset.
-
-## Dropped Features from [Vitesse](https://github.com/antfu/vitesse)
-
-- ~~i18n~~
-- ~~Layouts~~
-- ~~SSG~~
-- ~~PWA~~
-- ~~Markdown~~
-
 ## Pre-packed
 
 ### UI Frameworks
