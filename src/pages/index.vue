@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import IconCarbonCampsite from '~icons/carbon/campsite'
 const name = ref('')
 
 const router = useRouter()

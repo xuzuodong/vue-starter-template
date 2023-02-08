@@ -7,6 +7,7 @@ import Pages from 'vite-plugin-pages'
 import Components from 'unplugin-vue-components/vite'
 import AutoImport from 'unplugin-auto-import/vite'
 import Icons from 'unplugin-icons/vite'
+import IconsResolver from 'unplugin-icons/resolver'
 
 export default defineConfig({
     resolve: {
@@ -39,10 +40,15 @@ export default defineConfig({
         Components({
             directoryAsNamespace: true,
             dts: 'src/types/components.d.ts',
+            resolvers: [
+                IconsResolver({
+                    prefix: 'icon',
+                }),
+            ],
         }),
 
         // https://github.com/antfu/unplugin-icons
-        Icons({ compiler: 'vue3' }),
+        Icons({ compiler: 'vue3', defaultClass: 'inline' }),
     ],
 
     // https://github.com/vitest-dev/vitest
