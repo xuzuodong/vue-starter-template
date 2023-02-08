@@ -8,7 +8,8 @@
     "typecheck": "vue-tsc --noEmit",
     "preview": "vite preview",
     "test": "vitest",
-    "up": "taze major -I"
+    "up": "taze major -I",
+    "prepare": "husky install"
   },
   "dependencies": {
     "@vueuse/core": "^9.11.0",
@@ -17,6 +18,8 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.34.1",
+    "@commitlint/cli": "^17.4.2",
+    "@commitlint/config-conventional": "^17.4.2",
     "@iconify-json/carbon": "^1.1.13",
     "@types/node": "^18.11.18",
     "@vitejs/plugin-vue": "^4.0.0",
@@ -24,7 +27,9 @@
     "@vue/test-utils": "^2.2.7",
     "autoprefixer": "^10.4.13",
     "eslint": "^8.32.0",
+    "husky": "^8.0.3",
     "jsdom": "^21.0.0",
+    "lint-staged": "^13.1.1",
     "pnpm": "^7.25.1",
     "postcss": "^8.4.21",
     "sass": "^1.58.0",
