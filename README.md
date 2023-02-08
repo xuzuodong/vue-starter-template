@@ -20,6 +20,8 @@ Forked from <a href="https://github.com/antfu/vitesse-lite">Vitesse Lite</a>
 
 - 🎨 [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework
 
+- 😃 Access thousands of [icons as components](https://github.com/antfu/unplugin-icons) on-demand universally.
+
 - 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
 
 - ✅ Use [Vitest](http://vitest.dev/) for unit and components testing
@@ -39,6 +41,8 @@ Forked from <a href="https://github.com/antfu/vitesse-lite">Vitesse Lite</a>
 ### Icons
 
 - [Iconify](https://iconify.design) - use icons from any icon sets [🔍Icônes](https://icones.netlify.app/)
+
+- [`Icons as components`](https://github.com/antfu/unplugin-icons) - Access thousands of icons as components on-demand universally.
 
 ### Plugins
 
