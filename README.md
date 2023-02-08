@@ -14,13 +14,9 @@ Forked from <a href="https://github.com/antfu/vitesse-lite">Vitesse Lite</a>
 
 - 📦 [Components auto importing](./src/components)
 
-- ~~🎨 [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.~~
+- 🎨 ~~[UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.~~ [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework
 
-- ~~😃 Use icons from any icon sets in [Pure CSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)~~
-
-- 🎨 [TailwindCSS](https://tailwindcss.com/) - A utility-first CSS framework
-
-- 😃 Access thousands of [icons as components](https://github.com/antfu/unplugin-icons) on-demand universally.
+- 😃 ~~Use icons from any icon sets in [Pure CSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons).~~ Access thousands of [Icons as Components](https://github.com/antfu/unplugin-icons) on-demand universally.
 
 - 🔥 Use the [new `<script setup>` style](https://github.com/vuejs/rfcs/pull/227)
 
@@ -42,14 +38,14 @@ Forked from <a href="https://github.com/antfu/vitesse-lite">Vitesse Lite</a>
 
 - [Iconify](https://iconify.design) - use icons from any icon sets [🔍Icônes](https://icones.netlify.app/)
 
-- [`Icons as components`](https://github.com/antfu/unplugin-icons) - Access thousands of icons as components on-demand universally.
+- [`unplugin-icons`](https://github.com/antfu/unplugin-icons) - Access thousands of **icons as components** on-demand universally.
 
 ### Plugins
 
 - [Vue Router](https://github.com/vuejs/vue-router)
   - [`vite-plugin-pages`](https://github.com/hannoeru/vite-plugin-pages) - file system based routing
 - [`unplugin-auto-import`](https://github.com/antfu/unplugin-auto-import) - Directly use Vue Composition API and others without importing
-- [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - components auto import
+- [`unplugin-vue-components`](https://github.com/antfu/unplugin-vue-components) - components auto import, **including icon components**
 - [VueUse](https://github.com/antfu/vueuse) - collection of useful composition APIs
 
 ## Try it now
