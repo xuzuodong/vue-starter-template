@@ -3,4 +3,4 @@
 
 pnpm exec lint-staged
 pnpm exec vue-tsc --noEmit
-pnpm exec vitest run
+pnpm exec vitest --run
